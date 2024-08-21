@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="media.css">
     <title>About Me - Media</title>
   </head>
   <body>
@@ -10,8 +11,8 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Application Form</a></li>
         <li><a href="table.html">Courses</a></li>
-        <li><a href="media.html">Media</a></li>
       </ul>
     </nav>
 
@@ -21,34 +22,25 @@
     </header>
 
     <section>
-      <h2>Responsive Images</h2>
+      <h2>My Picture</h2>
       <picture>
         <source media="(min-width: 1200px)" srcset="/Assignment 2/image/WhatsApp Image 2024-08-01 at 9.38.03 PM.jpg" />
         <source media="(min-width: 768px)" srcset="/Assignment 2/image/WhatsApp Image 2024-08-01 at 9.38.03 PM.jpg" />
         <source media="(max-width: 767px)" srcset="/Assignment 2/image/WhatsApp Image 2024-08-01 at 9.38.03 PM.jpg" />
-        <img src="/Assignment 2/image/WhatsApp Image 2024-08-01 at 9.38.03 PM.jpg" width="300px" alt="My Picture" />
+        <img src="/image/WhatsApp Image 2024-08-01 at 9.38.03 PM.jpg" width="300px" alt="My Picture" />
       </picture>
 
-      <h2>Embedded Video</h2>
+      <h2 class="media">Video Format- A Stron Message About Myself</h2>
       <video controls width="600">
-        <source src="/Assignment 2/Videos/66b25260c9fe4aab8b6ee7c6.mp4" type="video/mp4" />
+        <source src="/Videos/WhatsApp Video 2024-08-21 at 11.53.45 AM.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-      <h2>Audio Element</h2>
+      <h2 class="media">Audio Format- A Stron Message About Myself</h2>
       <audio controls>
-        <source src="/Assignment 2/Audio/1. Prophecy given at Ife - Jan. 8, 2023.mp3" type="audio/mpeg" />
+        <source src="/Audio/A-Stron-Message-About-Myself.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
-
-      <h2>Embedded YouTube Video</h2>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/example_video"
-        title="YouTube video"
-        allowfullscreen
-      ></iframe>
     </section>
   </body>
 </html>
